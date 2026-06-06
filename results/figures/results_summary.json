@@ -1,0 +1,74 @@
+{
+  "MLP": {
+    "eff_mae": 5.625,
+    "eff_rmse": 7.87,
+    "eff_r2": 0.8782,
+    "dhu_mae": 4.666,
+    "dhu_rmse": 7.238,
+    "dhu_r2": -0.3057,
+    "avg_r2": 0.2862,
+    "train_time": 5.8,
+    "n_epochs": 30
+  },
+  "DeepMLP": {
+    "eff_mae": 5.735,
+    "eff_rmse": 7.887,
+    "eff_r2": 0.8776,
+    "dhu_mae": 4.47,
+    "dhu_rmse": 6.832,
+    "dhu_r2": -0.1635,
+    "avg_r2": 0.357,
+    "train_time": 14.3,
+    "n_epochs": 38
+  },
+  "CNN1D": {
+    "eff_mae": 9.005,
+    "eff_rmse": 10.863,
+    "eff_r2": 0.7678,
+    "dhu_mae": 3.886,
+    "dhu_rmse": 5.464,
+    "dhu_r2": 0.256,
+    "avg_r2": 0.5119,
+    "train_time": 141.5,
+    "n_epochs": 105
+  },
+  "TabTransformer": {
+    "eff_mae": 3.908,
+    "eff_rmse": 4.84,
+    "eff_r2": 0.9539,
+    "dhu_mae": 3.147,
+    "dhu_rmse": 4.693,
+    "dhu_r2": 0.4511,
+    "avg_r2": 0.7025,
+    "train_time": 399.6,
+    "n_epochs": 80
+  },
+  "BiLSTM": {
+    "eff_mae": 11.359,
+    "eff_rmse": 13.34,
+    "eff_r2": 0.6487,
+    "dhu_mae": 4.156,
+    "dhu_rmse": 5.447,
+    "dhu_r2": 0.2627,
+    "avg_r2": 0.4557,
+    "train_time": 46.9,
+    "n_epochs": 23
+  },
+  "best_model": "TabTransformer",
+  "model_order": [
+    "TabTransformer",
+    "CNN1D",
+    "BiLSTM",
+    "DeepMLP",
+    "MLP"
+  ],
+  "n_train": 5184,
+  "n_val": 1111,
+  "n_test": 1111,
+  "n_features": 20,
+  "n_samples": "MLP",
+  "eff_mean": 59.28,
+  "eff_std": 21.28,
+  "dhu_mean": 8.32,
+  "dhu_std": 5.6
+}
